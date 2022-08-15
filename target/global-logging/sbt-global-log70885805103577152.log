@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Java source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 18 s, completed 3 июн. 2022 г., 16:09:00
+[debug] > Exec(idea-shell, None, None)

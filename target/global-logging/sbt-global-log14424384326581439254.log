@@ -1,0 +1,18 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:101:18: not found: value UserUpdated
+[error]             case UserUpdated(_) => Future.successful(Ok(Json.toJson(Json.obj("status" -> "success", "message" -> "Объект успешно обновлен!"))))
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:120:40: not enough arguments for method update: (userID: java.util.UUID, user: models.User): scala.concurrent.Future[models.User].
+[error] Unspecified value parameter user.
+[error]             case None => userDAO.update(User(userID, userData)).map(UserUpdated(updatedUser))
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:120:81: not found: value updatedUser
+[error]             case None => userDAO.update(User(userID, userData)).map(UserUpdated(updatedUser))
+[error]                                                                                 ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 26 мая 2022 г., 17:43:35
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,91 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:42:48: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:45:61: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]                 signUpService.signUpByCredentials(data).map {
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:53:34: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:57:36: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:37:66: type mismatch;
+[error]  found   : com.mohiva.play.silhouette.api.actions.SecuredRequest[utils.auth.JWTEnvironment,play.api.mvc.AnyContent] => play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]  required: play.api.mvc.Action[play.api.mvc.AnyContent]
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                                  ^
+[error] 5 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:41:49: not enough arguments for method fold: (hasErrors: play.api.data.Form[forms.SignUpForm.CredentialsSignUpData] => R, success: forms.SignUpForm.CredentialsSignUpData => R): R.
+[error] Unspecified value parameter success.
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:56:36: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:37:66: type mismatch;
+[error]  found   : com.mohiva.play.silhouette.api.actions.SecuredRequest[utils.auth.JWTEnvironment,play.api.mvc.AnyContent] => play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result]
+[error]  required: play.api.mvc.Action[play.api.mvc.AnyContent]
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:36:47: overloaded method apply with alternatives:
+[error]   (authorization: com.mohiva.play.silhouette.api.Authorization[utils.auth.JWTEnvironment#I,utils.auth.JWTEnvironment#A])com.mohiva.play.silhouette.api.actions.SecuredActionBuilder[utils.auth.JWTEnvironment,play.api.mvc.AnyContent] <and>
+[error]   (errorHandler: com.mohiva.play.silhouette.api.actions.SecuredErrorHandler)com.mohiva.play.silhouette.api.actions.SecuredActionBuilder[utils.auth.JWTEnvironment,play.api.mvc.AnyContent] <and>
+[error]   (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+[error]   (block: com.mohiva.play.silhouette.api.actions.SecuredRequest[utils.auth.JWTEnvironment,play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+[error]   [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[[B]com.mohiva.play.silhouette.api.actions.SecuredRequest[utils.auth.JWTEnvironment,B],A]
+[error]  cannot be applied to ()
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction().async {
+[error]                                               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:39:15: value identity is not a member of play.api.mvc.Request[play.api.mvc.AnyContent]
+[error]       request.identity.role match {
+[error]               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Java source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

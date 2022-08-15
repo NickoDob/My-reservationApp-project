@@ -1,0 +1,128 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:24: value title is not a member of EventDAO.this.Events
+[error]       .map(evt => (evt.title, evt.startDateTime, evt.endDateTime, evt.orgUserId, evt.members, evt.itemId, evt.description))
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:48: value title is not a member of forms.EventForm.EventData
+[error]               eventDAO.add(Event(-1, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:66: value title is not a member of forms.EventForm.EventData
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.title, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

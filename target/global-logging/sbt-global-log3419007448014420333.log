@@ -1,0 +1,131 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

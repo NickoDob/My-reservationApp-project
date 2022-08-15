@@ -1,0 +1,150 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:23: not found: value Moment
+[error]     var x0 = new Date(Moment(endDateTime).format().toString()).getTime();
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:27:33: not found: value Moment
+[error]     var endTimestamp = new Date(Moment(x0 + 86340000).format("dd-MM-yyyy hh:mm").toString());
+[error]                                 ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:12:27: unclosed character literal (or use " for string literal "moment")
+[error] import Moment from 'moment';
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:12:15: '.' expected but identifier found.
+[error] import Moment from 'moment';
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:88:3: identifier expected but eof found.
+[error] }
+[error]  ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:12:15: '.' expected but identifier found.
+[error] import Moment from "moment";
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:12:28: identifier expected but ';' found.
+[error] import Moment from "moment";
+[error]                            ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:18: not found: type Date
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:23: not found: value Moment
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:22: not found: type Date
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:27: not found: value Moment
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:109:61: not found: value newEnd
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(newEnd)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:111:66: not found: value newEnd
+[error]     val compareDateTimeValue = eventData.startDateTime compareTo newEnd
+[error]                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:118:98: not found: value newEnd
+[error]           if (eventWithID.startDateTime != eventData.startDateTime && eventWithID.endDateTime != newEnd) {
+[error]                                                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:119:70: not found: value newEnd
+[error]             eventDAO.getByDateTimeAndItemID(eventData.startDateTime, newEnd, eventData.itemID).flatMap {
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:121:39: value id is not a member of Any
+[error]                 if (eventWithDateTime.id == eventID)
+[error]                                       ^
+[error] 9 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:18: not found: type Date
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:23: not found: value Moment
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:22: not found: type Date
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:27: not found: value Moment
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:109:61: not found: value newEnd
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(newEnd)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:111:66: not found: value newEnd
+[error]     val compareDateTimeValue = eventData.startDateTime compareTo newEnd
+[error]                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:118:98: not found: value newEnd
+[error]           if (eventWithID.startDateTime != eventData.startDateTime && eventWithID.endDateTime != newEnd) {
+[error]                                                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:119:70: not found: value newEnd
+[error]             eventDAO.getByDateTimeAndItemID(eventData.startDateTime, newEnd, eventData.itemID).flatMap {
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:121:39: value id is not a member of Any
+[error]                 if (eventWithDateTime.id == eventID)
+[error]                                       ^
+[error] 9 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:18: not found: type Date
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:60:23: not found: value Moment
+[error]     var x0 = new Date(Moment(eventData.endDateTime).format().toString()).getTime();
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:22: not found: type Date
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:61:27: not found: value Moment
+[error]     var newEnd = new Date(Moment(x0 + 86340000).format().toString());
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:109:61: not found: value newEnd
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(newEnd)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:111:66: not found: value newEnd
+[error]     val compareDateTimeValue = eventData.startDateTime compareTo newEnd
+[error]                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:118:98: not found: value newEnd
+[error]           if (eventWithID.startDateTime != eventData.startDateTime && eventWithID.endDateTime != newEnd) {
+[error]                                                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:119:70: not found: value newEnd
+[error]             eventDAO.getByDateTimeAndItemID(eventData.startDateTime, newEnd, eventData.itemID).flatMap {
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:121:39: value id is not a member of Any
+[error]                 if (eventWithDateTime.id == eventID)
+[error]                                       ^
+[error] 9 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

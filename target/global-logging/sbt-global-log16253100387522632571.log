@@ -1,0 +1,1144 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:112:3: ')' expected but '}' found.
+[error]   }
+[error]   ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:112:3: ')' expected but '}' found.
+[error]   }
+[error]   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:90:25: not enough arguments for method update: (userId: java.util.UUID, name: String): scala.concurrent.Future[Boolean].
+[error] Unspecified value parameter name.
+[error]       userService.update(userID).flatMap {
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:111:34: overloaded method > with alternatives:
+[error]   (x: Double)Boolean <and>
+[error]   (x: Float)Boolean <and>
+[error]   (x: Long)Boolean <and>
+[error]   (x: Int)Boolean <and>
+[error]   (x: Char)Boolean <and>
+[error]   (x: Short)Boolean <and>
+[error]   (x: Byte)Boolean
+[error]  cannot be applied to (models.User)
+[error]       .update((user.name)).map(_ > user))
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:90:34: not found: value name
+[error]       userService.update(userID, name).flatMap {
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:111:34: overloaded method > with alternatives:
+[error]   (x: Double)Boolean <and>
+[error]   (x: Float)Boolean <and>
+[error]   (x: Long)Boolean <and>
+[error]   (x: Int)Boolean <and>
+[error]   (x: Char)Boolean <and>
+[error]   (x: Short)Boolean <and>
+[error]   (x: Byte)Boolean
+[error]  cannot be applied to (models.User)
+[error]       .update((user.name)).map(_ > user))
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:90:34: not found: value name
+[error]       userService.update(userID, name).flatMap {
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:111:34: overloaded method > with alternatives:
+[error]   (x: Double)Boolean <and>
+[error]   (x: Float)Boolean <and>
+[error]   (x: Long)Boolean <and>
+[error]   (x: Int)Boolean <and>
+[error]   (x: Char)Boolean <and>
+[error]   (x: Short)Boolean <and>
+[error]   (x: Byte)Boolean
+[error]  cannot be applied to (models.User)
+[error]       .update((user.name)).map(_ > user))
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:90:34: not found: value name
+[error]       userService.update(userID, name).flatMap {
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:69:27: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]    userDAO.update(userId, name)
+[error]                           ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:90:31: object identity is not a member of package play.api.mvc.request
+[error]     val currentUser = request.identity
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:94:14: constructor cannot be instantiated to expected type;
+[error]  found   : Some[A]
+[error]  required: models.User
+[error]         case Some(user) => Future.successful(Ok(Json.toJson(user)))
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:95:14: pattern type is incompatible with expected type;
+[error]  found   : None.type
+[error]  required: models.User
+[error]         case None => Future.successful(NotFound(Json.toJson(Json.obj("status" -> "error", "code" -> NOT_FOUND, "message" -> "Пользователь не найден!"))))
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:111:16: not found: value user
+[error]       .update((user.name)).map(_ > user))
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:69:32: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]    userDAO.update(userId, user.name)
+[error]                                ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:94:54: not enough arguments for method update: (loginInfo: com.mohiva.play.silhouette.api.LoginInfo, authInfo: com.mohiva.play.silhouette.api.util.PasswordInfo): scala.concurrent.Future[com.mohiva.play.silhouette.api.util.PasswordInfo].
+[error] Unspecified value parameter authInfo.
+[error]               authInfoRepository.update[PasswordInfo](loginInfo)
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:95:47: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]               userService.update(userID, user.name).flatMap {
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] three errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:94:15: missing parameter type
+[error]               data => {
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:110:5: not found: value ChangePasswordForm
+[error]     ChangePasswordForm.form.bindFromRequest().fold(
+[error]     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:114:27: not found: value Credentials
+[error]         val credentials = Credentials(request.identity.email, currentPassword)
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:116:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:118:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:121:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:122:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 8 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:94:15: not found: value ChangePasswordForm
+[error]               ChangePasswordForm.form.bindFromRequest().fold(
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:97:68: not found: value passwordInfo
+[error]                 authInfoRepository.update[PasswordInfo](loginInfo, passwordInfo)
+[error]                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:98:49: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                 userService.update(userID, user.name).flatMap {
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:113:5: not found: value ChangePasswordForm
+[error]     ChangePasswordForm.form.bindFromRequest().fold(
+[error]     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:117:27: not found: value Credentials
+[error]         val credentials = Credentials(request.identity.email, currentPassword)
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:119:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:121:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:124:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:125:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:98:68: not found: value passwordInfo
+[error]                 authInfoRepository.update[PasswordInfo](loginInfo, passwordInfo)
+[error]                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:99:49: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                 userService.update(userID, user.name).flatMap {
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:118:27: not found: value Credentials
+[error]         val credentials = Credentials(request.identity.email, currentPassword)
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:120:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:122:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:125:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:126:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 8 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:99:37: not found: value Credentials
+[error]                   val credentials = Credentials(request.identity.email, currentPassword)
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:100:70: not found: value passwordInfo
+[error]                   authInfoRepository.update[PasswordInfo](loginInfo, passwordInfo)
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:102:40: not found: value passwordHasherRegistry
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:102:76: not found: value newPassword
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:103:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:123:27: not found: value Credentials
+[error]         val credentials = Credentials(request.identity.email, currentPassword)
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:125:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:127:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:130:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 11 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:100:73: type mismatch;
+[error]  found   : (String, String, String)
+[error]  required: String
+[error]                   val credentials = Credentials(request.identity.email, currentPassword)
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:101:70: not found: value passwordInfo
+[error]                   authInfoRepository.update[PasswordInfo](loginInfo, passwordInfo)
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:103:40: not found: value passwordHasherRegistry
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:103:76: not found: value newPassword
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:104:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:126:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:128:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:101:70: not found: value passwordInfo
+[error]                   authInfoRepository.update[PasswordInfo](loginInfo, passwordInfo)
+[error]                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:103:40: not found: value passwordHasherRegistry
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:104:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:126:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:128:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 8 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:102:40: not found: value passwordHasherRegistry
+[error]                     val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:104:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:126:30: not found: value passwordHasherRegistry
+[error]           val passwordInfo = passwordHasherRegistry.current.hash(newPassword)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:128:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 7 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:105:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:107:29: type mismatch;
+[error]  found   : models.User
+[error]  required: Boolean
+[error]                         if (delResult) Future.successful(Ok(Json.toJson(Json.obj("status" -> "success", "message" -> "Пользователь успешно удален!"))))
+[error]                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:105:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:105:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:105:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:107:39: value > is not a member of models.User
+[error]                         if (delResult > 0) Future.successful(Ok(Json.toJson(Json.obj("status" -> "success", "message" -> "Пользователь успешно удален!"))))
+[error]                                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:129:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:132:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:133:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:106:42: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: models.User => scala.concurrent.Future[play.api.mvc.Result]
+[error]                         Future.successful(Ok(Json.toJson(Json.obj("status" -> "success", "message" -> "Пользователь успешно удален!"))))
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:127:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:130:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:105:53: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]                     userService.update(userID, user.name).flatMap {
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:127:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:130:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:106:42: type mismatch;
+[error]  found   : scala.concurrent.Future[play.api.mvc.Result]
+[error]  required: models.User => scala.concurrent.Future[play.api.mvc.Result]
+[error]                         Future.successful(Ok(Json.toJson(Json.obj("status" -> "success", "message" -> "Пользователь успешно удален!"))))
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:127:73: not found: value Messages
+[error]             Ok(Json.toJson(Json.obj("status" -> "success", "message" -> Messages("success.password.changed"))))
+[error]                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:130:19: not found: type ProviderException
+[error]           case _: ProviderException =>
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:131:79: not found: value Messages
+[error]             BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> Messages("current.password.invalid"))))
+[error]                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:97:71: value password is not a member of models.User
+[error]               authInfoRepository.update[PasswordInfo](loginInfo, user.password)
+[error]                                                                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:98:47: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]               userService.update(userID, user.name).flatMap {
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] four errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\routes:15: Compilation error[Missing parameter in call definition: userId]
+[error] PUT         /api/users/:userId                    controllers.SignUpController.submit
+[error]                        ^
+[error] (Compile / playRoutes) @7npl9nn3n: Compilation error[Missing parameter in call definition: userId] in C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\routes:15
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:74: not found: type MessagesAbstractController
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:128: not found: type I18nSupport
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:18:56: not found: type MessagesControllerComponents
+[error] class SignUpController @Inject()(ControllerComponents: MessagesControllerComponents,
+[error]                                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:19:57: not found: type JWTEnvironment
+[error]                                  silhouette: Silhouette[JWTEnvironment],
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:20:49: not found: type SignUpService
+[error]                                  signUpService: SignUpService,
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:21:51: not found: type HasSignUpMethod
+[error]                                  hasSignUpMethod: HasSignUpMethod
+[error]                                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:48: not found: type ExecutionContext
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:101: no arguments allowed for nullary constructor Object: (): Object
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:15: not found: type Action
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:77: not found: type JWTEnvironment
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:38: not found: type JWTEnvironment
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:54: not found: type AnyContent
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:34:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:31: not found: value Future
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:49: not found: value BadRequest
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:60: not found: value Json
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:17: not found: value Future
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:35: not found: value BadRequest
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:46: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:58: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:19: not found: value Future
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:37: not found: value Forbidden
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:47: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:59: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:100: not found: value FORBIDDEN
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:54:29: not found: type Action
+[error]   def update(userID: UUID): Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:54:91: not found: type JWTEnvironment
+[error]   def update(userID: UUID): Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:55:38: not found: type JWTEnvironment
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:55:54: not found: type AnyContent
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:59:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:31: not found: value Future
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:49: not found: value BadRequest
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:60: not found: value Json
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:17: not found: value Future
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:35: not found: value BadRequest
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:46: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:58: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:19: not found: value Future
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:37: not found: value Forbidden
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:47: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:59: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:100: not found: value FORBIDDEN
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:97:66: not found: value password
+[error]               authInfoRepository.update[PasswordInfo](loginInfo, password)
+[error]                                                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:98:47: type mismatch;
+[error]  found   : String
+[error]  required: models.User
+[error]               userService.update(userID, user.name).flatMap {
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 46 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:74: not found: type MessagesAbstractController
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:128: not found: type I18nSupport
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:18:56: not found: type MessagesControllerComponents
+[error] class SignUpController @Inject()(ControllerComponents: MessagesControllerComponents,
+[error]                                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:19:57: not found: type JWTEnvironment
+[error]                                  silhouette: Silhouette[JWTEnvironment],
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:20:49: not found: type SignUpService
+[error]                                  signUpService: SignUpService,
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:21:51: not found: type HasSignUpMethod
+[error]                                  hasSignUpMethod: HasSignUpMethod
+[error]                                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:48: not found: type ExecutionContext
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:101: no arguments allowed for nullary constructor Object: (): Object
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:15: not found: type Action
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:77: not found: type JWTEnvironment
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:38: not found: type JWTEnvironment
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:54: not found: type AnyContent
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:34:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:31: not found: value Future
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:49: not found: value BadRequest
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:60: not found: value Json
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:17: not found: value Future
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:35: not found: value BadRequest
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:46: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:58: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:19: not found: value Future
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:37: not found: value Forbidden
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:47: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:59: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:100: not found: value FORBIDDEN
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:54:29: not found: type Action
+[error]   def update(userID: UUID): Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:54:91: not found: type JWTEnvironment
+[error]   def update(userID: UUID): Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:55:38: not found: type JWTEnvironment
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:55:54: not found: type AnyContent
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:59:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:31: not found: value Future
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:49: not found: value BadRequest
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:60:60: not found: value Json
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:17: not found: value Future
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:35: not found: value BadRequest
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:46: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:71:58: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:19: not found: value Future
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:37: not found: value Forbidden
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:47: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:59: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:75:100: not found: value FORBIDDEN
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 44 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:74: not found: type MessagesAbstractController
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:128: not found: type I18nSupport
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:18:56: not found: type MessagesControllerComponents
+[error] class SignUpController @Inject()(ControllerComponents: MessagesControllerComponents,
+[error]                                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:19:57: not found: type JWTEnvironment
+[error]                                  silhouette: Silhouette[JWTEnvironment],
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:20:49: not found: type SignUpService
+[error]                                  signUpService: SignUpService,
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:21:51: not found: type HasSignUpMethod
+[error]                                  hasSignUpMethod: HasSignUpMethod
+[error]                                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:48: not found: type ExecutionContext
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:22:101: no arguments allowed for nullary constructor Object: (): Object
+[error]                                 )(implicit ex: ExecutionContext) extends MessagesAbstractController(ControllerComponents) with I18nSupport {
+[error]                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:15: not found: type Action
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:29:77: not found: type JWTEnvironment
+[error]   def submit: Action[AnyContent] = silhouette.SecuredAction(hasSignUpMethod[JWTEnvironment#A](CredentialsProvider.ID)).async {
+[error]                                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:38: not found: type JWTEnvironment
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:30:54: not found: type AnyContent
+[error]     implicit request: SecuredRequest[JWTEnvironment, AnyContent] =>
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:34:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:31: not found: value Future
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:49: not found: value BadRequest
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:35:60: not found: value Json
+[error]             formWithErrors => Future.successful(BadRequest(Json.toJson(formWithErrors.errors.toString))),
+[error]                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:17: not found: value Future
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:35: not found: value BadRequest
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:46: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:46:58: not found: value Json
+[error]                 Future.successful(BadRequest(Json.toJson(Json.obj("status" -> "error", "message" -> "Введенные пароли не совпадают!"))))
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:19: not found: value Future
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:37: not found: value Forbidden
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:47: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:59: not found: value Json
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\SignUpController.scala:50:100: not found: value FORBIDDEN
+[error]         case _ => Future.successful(Forbidden(Json.toJson(Json.obj("status" -> "error",  "code" -> FORBIDDEN, "message" -> "Недостаточно прав для выполнения операции!"))))
+[error]                                                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:95:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:99:17: not found: value signUpService
+[error]                 signUpService.signUpByCredentials(data).map {
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:101:53: not found: value SignUpEvent
+[error]                     silhouette.env.eventBus.publish(SignUpEvent(user, request))
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 30 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:95:11: not found: value SignUpForm
+[error]           SignUpForm.form.bindFromRequest().fold(
+[error]           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:99:17: not found: value signUpService
+[error]                 signUpService.signUpByCredentials(data).map {
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\UserController.scala:101:53: not found: value SignUpEvent
+[error]                     silhouette.env.eventBus.publish(SignUpEvent(user, request))
+[error]                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] 5 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAOImpl.scala:109:34: not found: value userID
+[error]     db.run(users.filter(_.id === userID).update.map(_ > 0))
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\UserServiceImpl.scala:70:19: type mismatch;
+[error]  found   : scala.concurrent.Future[Boolean]
+[error]  required: scala.concurrent.Future[models.User]
+[error]     userDAO.update(userId)
+[error]                   ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source and 1 Java source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\LoginInfoDAOImpl.scala:16:7: class LoginInfoDAOImpl needs to be abstract. Missing implementation for:
+[error]   def updateLoginInfo(name: String): scala.concurrent.Future[Unit] // inherited from trait LoginInfoDAO
+[error] class LoginInfoDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext)
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source and 1 Java source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\LoginInfoDAOImpl.scala:16:7: class LoginInfoDAOImpl needs to be abstract. Missing implementation for:
+[error]   def updateLoginInfo(name: String): scala.concurrent.Future[Unit] // inherited from trait LoginInfoDAO
+[error] class LoginInfoDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext)
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Java source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\SignUpService.scala:51:16: type mismatch;
+[error]  found   : scala.concurrent.Future[models.services.UserCreatedOrUpdated]
+[error]  required: Option[models.User] => scala.concurrent.Future[models.services.SignUpResult]
+[error]           user <- userService.createOrUpdate(loginInfo, data.email, data.name, data.lastName, data.position, None)
+[error]                ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\SignUpService.scala:49:45: match may not be exhaustive.
+[error] It would fail on the following input: None
+[error]     userService.retrieve(loginInfo).flatMap {
+[error]                                             ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

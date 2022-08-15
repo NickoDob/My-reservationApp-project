@@ -1,0 +1,50 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:31: value startDateTime is not a member of models.Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:52: value endDateTime is not a member of models.Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:22: value startDateTime is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:43: value endDateTime is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:114:27: value startDateTime is not a member of models.Event
+[error]           if (eventWithID.startDateTime != eventData.startDateTime && eventWithID.endDateTime != eventData.endDateTime) {
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:114:83: value endDateTime is not a member of models.Event
+[error]           if (eventWithID.startDateTime != eventData.startDateTime && eventWithID.endDateTime != eventData.endDateTime) {
+[error]                                                                                   ^
+[error] 6 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:31: value startDateTime is not a member of models.Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:52: value endDateTime is not a member of models.Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:22: value startDateTime is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:43: value endDateTime is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                           ^

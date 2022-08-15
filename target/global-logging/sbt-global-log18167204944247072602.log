@@ -1,0 +1,192 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:58:83: value - is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime - 1)
+[error]                                                                                   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:105:84: value AddSeconds is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime).AddSeconds(-1)
+[error]                                                                                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:105:84: value AddSeconds is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime).AddSeconds(-1)
+[error]                                                                                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:105:84: value AddSeconds is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime).AddSeconds(-1)
+[error]                                                                                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:105:84: value AddSeconds is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime).AddSeconds(-1)
+[error]                                                                                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:105:83: value AddSeconds is not a member of java.time.LocalDate
+[error]     val newEndDateTime: LocalDate = newEventDateTimeBuilder(eventData.endDateTime.AddSeconds(-1))
+[error]                                                                                   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:35:26: value AddSeconds is not a member of java.time.LocalDate
+[error]       case 0 => dateTime.AddSeconds(-1)
+[error]                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Event.scala:33:127: value AddSeconds is not a member of java.time.LocalDate
+[error]   implicit val getR: GetResult[Event] = GetResult(r => Event(r.nextLong(), r.nextDate().toLocalDate, r.nextDate().toLocalDate.AddSeconds(-1), UUID.fromString(r.nextString()), Json.parse(r.nextString()).asOpt[JsValue], r.nextLong(), r.nextStringOption()))
+[error]                                                                                                                               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:20:48: value AddSeconds is not a member of play.api.data.Mapping[java.time.LocalDate]
+[error]       "endDateTime" -> localDate("yyyy-MM-dd").AddSeconds(-1),
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:25:34: missing argument list for method unapply in object EventData
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(EventData.apply)(EventData.unapply)
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:20:48: value AddSeconds is not a member of play.api.data.Mapping[java.time.LocalDate]
+[error]       "endDateTime" -> localDate("yyyy-MM-dd").AddSeconds(-1),
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:25:34: missing argument list for method unapply in object EventData
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(EventData.apply)(EventData.unapply)
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:20:48: value AddSeconds is not a member of play.api.data.Mapping[java.time.LocalDate]
+[error]       "endDateTime" -> localDate("yyyy-MM-dd").AddSeconds(-1),
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:25:34: missing argument list for method unapply in object EventData
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(EventData.apply)(EventData.unapply)
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:20:48: value AddSeconds is not a member of play.api.data.Mapping[java.time.LocalDate]
+[error]       "endDateTime" -> localDate("yyyy-MM-dd").AddSeconds(-1),
+[error]                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\EventForm.scala:25:34: missing argument list for method unapply in object EventData
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(EventData.apply)(EventData.unapply)
+[error]                                  ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:50: value AddSeconds is not a member of java.sql.Date
+[error]     val endTimestamp = Date.valueOf(endDateTime).AddSeconds(-1)
+[error]                                                  ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:50: value AddSeconds is not a member of java.sql.Date
+[error]     val endTimestamp = Date.valueOf(endDateTime).AddSeconds(-1)
+[error]                                                  ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:50: value AddSeconds is not a member of java.sql.Date
+[error]     val endTimestamp = Date.valueOf(endDateTime).AddSeconds(-1)
+[error]                                                  ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:50: value AddSeconds is not a member of java.sql.Date
+[error]     val endTimestamp = Date.valueOf(endDateTime).AddSeconds(-1)
+[error]                                                  ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

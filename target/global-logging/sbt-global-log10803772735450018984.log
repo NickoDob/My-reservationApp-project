@@ -1,0 +1,40 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:70:30: value === is not a member of slick.lifted.Rep[java.util.UUID]
+[error]     db.run(users.filter(_.id === userID)
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:72:16: not found: value item
+[error]       .update((item.address, item.heating, item.square, item.price)).map(_ => item))
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:72:30: not found: value item
+[error]       .update((item.address, item.heating, item.square, item.price)).map(_ => item))
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:72:44: not found: value item
+[error]       .update((item.address, item.heating, item.square, item.price)).map(_ => item))
+[error]                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:72:57: not found: value item
+[error]       .update((item.address, item.heating, item.square, item.price)).map(_ => item))
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\UserDAO.scala:72:79: not found: value item
+[error]       .update((item.address, item.heating, item.square, item.price)).map(_ => item))
+[error]                                                                               ^
+[error] 6 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

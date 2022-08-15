@@ -1,0 +1,8 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\application.conf,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\database.conf,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\database.conf)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\logback.xml,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\logback.xml)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\messages,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\messages)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\routes,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\routes)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\silhouette.conf,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\silhouette.conf)
+[debug] 	(C:\Users\kolya\Documents\GitHub\reservationApp-FB\conf\evolutions\default\1.sql,C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes\evolutions\default\1.sql)

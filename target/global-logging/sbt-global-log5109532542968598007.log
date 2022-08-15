@@ -1,0 +1,731 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:8: identifier expected but string literal found.
+[error]       .sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]        ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:8: identifier expected but string literal found.
+[error]       .sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]        ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:8: identifier expected but string literal found.
+[error]       .sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]        ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:7: ')' expected but string literal found.
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:27:28: value valueOf is not a member of object Long
+[error]     val itemIDstamp = Long.valueOf(itemID)
+[error]                            ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:9:59: not found: type DatabaseConfigProvider
+[error] class EventDAO @Inject() (protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext) extends DatabaseDAO {
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:9:96: not found: type ExecutionContext
+[error] class EventDAO @Inject() (protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext) extends DatabaseDAO {
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:20:95: not found: type Future
+[error]   def getByDateTimeAndItemID(startDateTime: LocalDate, endDateTime: LocalDate, itemID: Long): Future[Option[Event]] = {
+[error]                                                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:25:7: value sql is not a member of StringContext
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:13: not found: type Event
+[error]         .as[Event].headOption)
+[error]             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:39:31: not found: type Future
+[error]   def getByID(eventID: Long): Future[Option[Event]] = {
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:40:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === eventID).result.headOption)
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:40:25: ambiguous implicit values:
+[error]  both value BooleanColumnCanBeQueryCondition in object CanBeQueryCondition of type slick.lifted.CanBeQueryCondition[slick.lifted.Rep[Boolean]]
+[error]  and value BooleanOptionColumnCanBeQueryCondition in object CanBeQueryCondition of type slick.lifted.CanBeQueryCondition[slick.lifted.Rep[Option[Boolean]]]
+[error]  match expected type slick.lifted.CanBeQueryCondition[Nothing]
+[error]     db.run(events.filter(_.id === eventID).result.headOption)
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:48:15: not found: type Future
+[error]   def getAll: Future[Seq[Event]] = {
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:49:19: value result is not a member of slick.lifted.TableQuery[EventDAO.this.Events]
+[error]     db.run(events.result)
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:58:26: not found: type Future
+[error]   def add(event: Event): Future[Event] = {
+[error]                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:58:18: not found: type Event
+[error]   def add(event: Event): Future[Event] = {
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:59:19: value += is not a member of slick.lifted.TableQuery[EventDAO.this.Events]
+[error]   Expression does not convert to assignment because receiver is not assignable.
+[error]     db.run(events +=
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:60:9: not found: value Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:70:29: not found: type Future
+[error]   def update(event: Event): Future[Event] =
+[error]                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:70:21: not found: type Event
+[error]   def update(event: Event): Future[Event] =
+[error]                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:71:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === event.id)
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:73:78: not found: value Json
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:81:30: not found: type Future
+[error]   def delete(eventID: Long): Future[Boolean] =
+[error]                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:82:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === eventID).delete).map(_ > 0)
+[error]                               ^
+[error] 20 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:10:59: not found: type DatabaseConfigProvider
+[error] class EventDAO @Inject() (protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext) extends DatabaseDAO {
+[error]                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:21:109: not found: type Event
+[error]   def getByDateTimeAndItemID(startDateTime: LocalDate, endDateTime: LocalDate, itemID: Long): Future[Option[Event]] = {
+[error]                                                                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:26:7: value sql is not a member of StringContext
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:31:13: not found: type Event
+[error]         .as[Event].headOption)
+[error]             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:40:45: not found: type Event
+[error]   def getByID(eventID: Long): Future[Option[Event]] = {
+[error]                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:41:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === eventID).result.headOption)
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:41:25: ambiguous implicit values:
+[error]  both value BooleanColumnCanBeQueryCondition in object CanBeQueryCondition of type slick.lifted.CanBeQueryCondition[slick.lifted.Rep[Boolean]]
+[error]  and value BooleanOptionColumnCanBeQueryCondition in object CanBeQueryCondition of type slick.lifted.CanBeQueryCondition[slick.lifted.Rep[Option[Boolean]]]
+[error]  match expected type slick.lifted.CanBeQueryCondition[Nothing]
+[error]     db.run(events.filter(_.id === eventID).result.headOption)
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:49:26: not found: type Event
+[error]   def getAll: Future[Seq[Event]] = {
+[error]                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:50:19: value result is not a member of slick.lifted.TableQuery[EventDAO.this.Events]
+[error]     db.run(events.result)
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:59:33: not found: type Event
+[error]   def add(event: Event): Future[Event] = {
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:59:18: not found: type Event
+[error]   def add(event: Event): Future[Event] = {
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:60:19: value += is not a member of slick.lifted.TableQuery[EventDAO.this.Events]
+[error]   Expression does not convert to assignment because receiver is not assignable.
+[error]     db.run(events +=
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:61:9: not found: value Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:71:36: not found: type Event
+[error]   def update(event: Event): Future[Event] =
+[error]                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:71:21: not found: type Event
+[error]   def update(event: Event): Future[Event] =
+[error]                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:72:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === event.id)
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:74:78: not found: value Json
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:83:31: value === is not a member of slick.lifted.Rep[Long]
+[error]     db.run(events.filter(_.id === eventID).delete).map(_ > 0)
+[error]                               ^
+[error] 18 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:27:23: not found: value BigInteger
+[error]     val itemIDstamp = BigInteger.valueOf(itemID)
+[error]                       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:7: could not find implicit value for parameter e: slick.jdbc.SetParameter[java.math.BigInteger]
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:7: ')' expected but string literal found.
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:27:65: value and is not a member of slick.sql.SqlAction[Option[models.Event],slick.dbio.NoStream,slick.dbio.Effect.Read]
+[error]     db.run(events.filter(_.itemId === itemID).result.headOption and
+[error]                                                                 ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:34:3: ')' expected but '}' found.
+[error]   }
+[error]   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:33:20: type mismatch;
+[error]  found   : slick.sql.SqlStreamingAction[Vector[models.Event],models.Event,slick.dbio.Effect]#ResultAction[Option[models.Event],slick.dbio.NoStream,slick.dbio.Effect]
+[error]  required: EventDAO.this.Events => ?
+[error]         .as[Event].headOption)
+[error]                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:29:7: type mismatch;
+[error]  found   : slick.jdbc.SQLActionBuilder
+[error]  required: EventDAO.this.Events => ?
+[error]       sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:26: not a legal formal parameter.
+[error] Note: Tuples cannot be directly destructured in method or function parameters.
+[error]       Either create a single parameter accepting the Tuple1,
+[error]       or consider a pattern matching anonymous function: `{ case (param1, param1) => ... }
+[error]       .map(EventDAO.this.Events =>(
+[error]                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:15: not found: value col
+[error]       .filter(col("start_datetime").between(startDateTime, endDateTime))
+[error]               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:30:25: ';' expected but ')' found.
+[error]       .result.headOption)
+[error]                         ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:31: value >== is not a member of slick.lifted.Rep[java.time.LocalDate]
+[error]   Expression does not convert to assignment because receiver is not assignable.
+[error]       .filter(_.startDateTime >== startDateTime)
+[error]                               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:8: inferred type arguments [Boolean] do not conform to method filter's type parameter bounds [T <: slick.lifted.Rep[_]]
+[error]       .filter(_.startDateTime != startDateTime)
+[error]        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:31: type mismatch;
+[error]  found   : EventDAO.this.Events => Boolean
+[error]  required: EventDAO.this.Events => T
+[error]       .filter(_.startDateTime != startDateTime)
+[error]                               ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:31: value !== is not a member of slick.lifted.Rep[java.time.LocalDate]
+[error]   Expression does not convert to assignment because receiver is not assignable.
+[error]       .filter(_.startDateTime !== startDateTime)
+[error]                               ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:15: missing parameter type for expanded function ((<x$2: error>, x$3) => x$2.startDateTime.$less$eq(startDateTime).$amp$amp(x$3.startDateTime.$less$eq(endDateTime)))
+[error]       .filter(_.startDateTime <= startDateTime && _.startDateTime <= endDateTime)
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:51: missing parameter type for expanded function ((<x$2: error>, <x$3: error>) => x$2.startDateTime.$less$eq(startDateTime).$amp$amp(x$3.startDateTime.$less$eq(endDateTime)))
+[error]       .filter(_.startDateTime <= startDateTime && _.startDateTime <= endDateTime)
+[error]                                                   ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

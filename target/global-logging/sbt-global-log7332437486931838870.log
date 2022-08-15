@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:28:8: identifier expected but string literal found.
+[error]       .sql"""SELECT * FROM app.events WHERE app.events.start_datetime BETWEEN $startTimestamp AND $endTimestamp OR
+[error]        ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 21 апр. 2022 г., 09:40:45
+[debug] > Exec(idea-shell, None, None)

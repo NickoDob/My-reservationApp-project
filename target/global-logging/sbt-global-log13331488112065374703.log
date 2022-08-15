@@ -1,0 +1,314 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:15:28: not found: type Writes
+[error]   implicit val ItemWrites: Writes[Item] = (
+[error]                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:8:27: not found: type Reads
+[error]   implicit val ItemReads: Reads[Item] = (
+[error]                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\ItemForm.scala:18:12: type mismatch;
+[error]  found   : (Long, String, String, java.math.BigDecimal) => models.Item
+[error]  required: (Long, String, String, BigDecimal) => ?
+[error]     )(Item.apply)(Item.unapply)
+[error]            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\forms\ItemForm.scala:18:24: missing argument list for method unapply in object Item
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(Item.apply)(Item.unapply)
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:9:6: not found: value JsPath
+[error]     (JsPath \ "id").read[Long] and
+[error]      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:10:10: not found: value JsPath
+[error]         (JsPath \ "address").read[String] and
+[error]          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:11:12: not found: value JsPath
+[error]           (JsPath \ "heating").read[String] and
+[error]            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:12:14: not found: value JsPath
+[error]             (JsPath \ "square").read[BigDecimal]
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:16:6: not found: value JsPath
+[error]     (JsPath \ "id").write[Long] and
+[error]      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:17:10: not found: value JsPath
+[error]         (JsPath \ "address").write[String] and
+[error]          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:18:12: not found: value JsPath
+[error]           (JsPath \ "heating").write[String] and
+[error]            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:19:14: not found: value JsPath
+[error]             (JsPath \ "square").write[BigDecimal]
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:20:7: not found: value unlift
+[error]     )(unlift(Item.unapply))
+[error]       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\Item.scala:20:19: missing argument list for method unapply in object Item
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `unapply _` or `unapply(_)` instead of `unapply`.
+[error]     )(unlift(Item.unapply))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:102:15: not found: value TableQuery
+[error]   val items = TableQuery[Items]
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:13:38: not found: type Table
+[error]   class AuthTokens(tag: Tag) extends Table[DBAuthToken](tag, Some("auth"),"silhouette_tokens") {
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:13:25: not found: type Tag
+[error]   class AuthTokens(tag: Tag) extends Table[DBAuthToken](tag, Some("auth"),"silhouette_tokens") {
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:13:57: no arguments allowed for nullary constructor Object: (): Object
+[error]   class AuthTokens(tag: Tag) extends Table[DBAuthToken](tag, Some("auth"),"silhouette_tokens") {
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:14:14: not found: value column
+[error]     def id = column[UUID]("id", O.PrimaryKey)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:14:33: not found: value O
+[error]     def id = column[UUID]("id", O.PrimaryKey)
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:15:18: not found: value column
+[error]     def userId = column[UUID]("user_id")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:16:18: not found: value column
+[error]     def expiry = column[Timestamp]("expiry")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:17:13: not found: type ProvenShape
+[error]     def * : ProvenShape[DBAuthToken] = (id, userId, expiry).<>(DBAuthToken.tupled, DBAuthToken.unapply)
+[error]             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:22:37: not found: type Table
+[error]   class UserRoles(tag: Tag) extends Table[DBUserRoles](tag, Some("auth"),"silhouette_user_roles") {
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:22:24: not found: type Tag
+[error]   class UserRoles(tag: Tag) extends Table[DBUserRoles](tag, Some("auth"),"silhouette_user_roles") {
+[error]                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:22:56: no arguments allowed for nullary constructor Object: (): Object
+[error]   class UserRoles(tag: Tag) extends Table[DBUserRoles](tag, Some("auth"),"silhouette_user_roles") {
+[error]                                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:23:14: not found: value column
+[error]     def id = column[Int]("id", O.PrimaryKey)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:23:32: not found: value O
+[error]     def id = column[Int]("id", O.PrimaryKey)
+[error]                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:24:16: not found: value column
+[error]     def name = column[String]("name")
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:31:28: not found: type User
+[error]     def toUser(u: DBUser): User = User(u.id, u.name, u.lastName, u.position, u.email, Some(UserRoles.toHumanReadable(u.roleId)))
+[error]                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:31:35: not found: value User
+[error]     def toUser(u: DBUser): User = User(u.id, u.name, u.lastName, u.position, u.email, Some(UserRoles.toHumanReadable(u.roleId)))
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:31:92: not found: value UserRoles
+[error]     def toUser(u: DBUser): User = User(u.id, u.name, u.lastName, u.position, u.email, Some(UserRoles.toHumanReadable(u.roleId)))
+[error]                                                                                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:32:21: not found: type User
+[error]     def fromUser(u: User): DBUser = DBUser(u.id, u.name, u.lastName, u.position, u.email, UserRoles.toDBReadable(u.role.toString))
+[error]                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:32:91: not found: value UserRoles
+[error]     def fromUser(u: User): DBUser = DBUser(u.id, u.name, u.lastName, u.position, u.email, UserRoles.toDBReadable(u.role.toString))
+[error]                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:35:33: not found: type Table
+[error]   class Users(tag: Tag) extends Table[DBUser](tag, Some("auth"),"silhouette_users") {
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:35:20: not found: type Tag
+[error]   class Users(tag: Tag) extends Table[DBUser](tag, Some("auth"),"silhouette_users") {
+[error]                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:35:47: no arguments allowed for nullary constructor Object: (): Object
+[error]   class Users(tag: Tag) extends Table[DBUser](tag, Some("auth"),"silhouette_users") {
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:36:14: not found: value column
+[error]     def id = column[UUID]("id", O.PrimaryKey)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:36:33: not found: value O
+[error]     def id = column[UUID]("id", O.PrimaryKey)
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:37:16: not found: value column
+[error]     def name = column[String]("name")
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:38:20: not found: value column
+[error]     def lastName = column[String]("last_name")
+[error]                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:39:20: not found: value column
+[error]     def position = column[String]("position")
+[error]                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:40:17: not found: value column
+[error]     def email = column[String]("email")
+[error]                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:41:18: not found: value column
+[error]     def roleId = column[Int]("role_id")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:42:13: not found: type ProvenShape
+[error]     def * : ProvenShape[DBUser] = (id, name, lastName, position, email, roleId).<> ((DBUser.apply _).tupled, DBUser.unapply)
+[error]             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:47:38: not found: type Table
+[error]   class LoginInfos(tag: Tag) extends Table[DBLoginInfo](tag, Some("auth"),"silhouette_login_info") {
+[error]                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:47:25: not found: type Tag
+[error]   class LoginInfos(tag: Tag) extends Table[DBLoginInfo](tag, Some("auth"),"silhouette_login_info") {
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:47:57: no arguments allowed for nullary constructor Object: (): Object
+[error]   class LoginInfos(tag: Tag) extends Table[DBLoginInfo](tag, Some("auth"),"silhouette_login_info") {
+[error]                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:48:14: not found: value column
+[error]     def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:48:33: not found: value O
+[error]     def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:48:47: not found: value O
+[error]     def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:49:22: not found: value column
+[error]     def providerID = column[String]("provider_id")
+[error]                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:50:23: not found: value column
+[error]     def providerKey = column[String]("provider_key")
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:61:42: not found: type Table
+[error]   class UserLoginInfos(tag: Tag) extends Table[DBUserLoginInfo](tag, Some("auth"), "silhouette_user_login_info") {
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:61:29: not found: type Tag
+[error]   class UserLoginInfos(tag: Tag) extends Table[DBUserLoginInfo](tag, Some("auth"), "silhouette_user_login_info") {
+[error]                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:61:65: no arguments allowed for nullary constructor Object: (): Object
+[error]   class UserLoginInfos(tag: Tag) extends Table[DBUserLoginInfo](tag, Some("auth"), "silhouette_user_login_info") {
+[error]                                                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:62:18: not found: value column
+[error]     def userID = column[UUID]("user_id")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:63:23: not found: value column
+[error]     def loginInfoId = column[Long]("login_info_id")
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:69:41: not found: type Table
+[error]   class PasswordInfos(tag: Tag) extends Table[DBPasswordInfo](tag, Some("auth"),"silhouette_password_info") {
+[error]                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:69:28: not found: type Tag
+[error]   class PasswordInfos(tag: Tag) extends Table[DBPasswordInfo](tag, Some("auth"),"silhouette_password_info") {
+[error]                            ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:69:63: no arguments allowed for nullary constructor Object: (): Object
+[error]   class PasswordInfos(tag: Tag) extends Table[DBPasswordInfo](tag, Some("auth"),"silhouette_password_info") {
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:70:18: not found: value column
+[error]     def hasher = column[String]("hasher")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:71:20: not found: value column
+[error]     def password = column[String]("password")
+[error]                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:72:16: not found: value column
+[error]     def salt = column[Option[String]]("salt")
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:73:23: not found: value column
+[error]     def loginInfoId = column[Long]("login_info_id")
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:77:35: not found: type JdbcType
+[error]   implicit val JsValueColumnType: JdbcType[JsValue] with BaseTypedType[JsValue] = MappedColumnType.base[JsValue, String](
+[error]                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:77:58: not found: type BaseTypedType
+[error]   implicit val JsValueColumnType: JdbcType[JsValue] with BaseTypedType[JsValue] = MappedColumnType.base[JsValue, String](
+[error]                                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:77:83: not found: value MappedColumnType
+[error]   implicit val JsValueColumnType: JdbcType[JsValue] with BaseTypedType[JsValue] = MappedColumnType.base[JsValue, String](
+[error]                                                                                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:77:105: not found: type JsValue
+[error]   implicit val JsValueColumnType: JdbcType[JsValue] with BaseTypedType[JsValue] = MappedColumnType.base[JsValue, String](
+[error]                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:78:16: not found: value Json
+[error]     jsValue => Json.stringify(Json.toJson(jsValue)),
+[error]                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:78:31: not found: value Json
+[error]     jsValue => Json.stringify(Json.toJson(jsValue)),
+[error]                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:79:15: not found: value Json
+[error]     column => Json.parse(column).as[JsValue]
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:79:37: not found: type JsValue
+[error]     column => Json.parse(column).as[JsValue]
+[error]                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:82:34: not found: type Table
+[error]   class Events(tag: Tag) extends Table[Event](tag, Some("app"), "events") {
+[error]                                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:82:21: not found: type Tag
+[error]   class Events(tag: Tag) extends Table[Event](tag, Some("app"), "events") {
+[error]                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:82:47: no arguments allowed for nullary constructor Object: (): Object
+[error]   class Events(tag: Tag) extends Table[Event](tag, Some("app"), "events") {
+[error]                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:83:14: not found: value column
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:83:33: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:83:54: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:83:68: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:84:25: not found: value column
+[error]     def startDateTime = column[LocalDateTime]("start_datetime")
+[error]                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:85:23: not found: value column
+[error]     def endDateTime = column[LocalDateTime]("end_datetime")
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:86:21: not found: value column
+[error]     def orgUserId = column[UUID]("org_user_id")
+[error]                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:87:19: not found: value column
+[error]     def members = column[Option[JsValue]]("members", O.SqlType("JSON"))
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:87:33: not found: type JsValue
+[error]     def members = column[Option[JsValue]]("members", O.SqlType("JSON"))
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:87:54: not found: value O
+[error]     def members = column[Option[JsValue]]("members", O.SqlType("JSON"))
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:88:18: not found: value column
+[error]     def itemId = column[Long]("item_id")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:89:23: not found: value column
+[error]     def description = column[Option[String]]("description")
+[error]                       ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:93:33: not found: type Table
+[error]   class Items(tag: Tag) extends Table[Item](tag, Some("app"), "items") {
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:93:20: not found: type Tag
+[error]   class Items(tag: Tag) extends Table[Item](tag, Some("app"), "items") {
+[error]                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:93:45: no arguments allowed for nullary constructor Object: (): Object
+[error]   class Items(tag: Tag) extends Table[Item](tag, Some("app"), "items") {
+[error]                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:94:14: not found: value column
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]              ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:94:33: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                 ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:94:54: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:94:68: not found: value O
+[error]     def id = column[Long]("id", O.SqlType("SERIAL"), O.PrimaryKey, O.AutoInc)
+[error]                                                                    ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:95:19: not found: value column
+[error]     def address = column[String]("address")
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:19: not found: value column
+[error]     def heating = column[String]("heating")
+[error]                   ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:97:18: not found: value column
+[error]     def square = column[BigDecimal]("square")
+[error]                  ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:101:15: not found: value TableQuery
+[error]   val users = TableQuery[Users]
+[error]               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:103:16: not found: value TableQuery
+[error]   val events = TableQuery[Events]
+[error]                ^
+[error] 100 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 3 s, completed 18 апр. 2022 г., 18:03:57
+[debug] > Exec(idea-shell, None, None)

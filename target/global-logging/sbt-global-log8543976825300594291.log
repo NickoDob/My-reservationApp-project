@@ -1,0 +1,44 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\ItemDAO.scala:43:58: too many arguments (found 4, expected 1) for method filter: (f: ItemDAO.this.Items => T)(implicit wt: slick.lifted.CanBeQueryCondition[T]): slick.lifted.Query[ItemDAO.this.Items,ItemDAO.this.Items#TableElementType,Seq]
+[error]     db.run(items.filter(_.address === address, _.heating === heating, _.square === square, _.price === price).result.headOption)
+[error]                                                          ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\ItemDAO.scala:43:58: too many arguments (found 4, expected 1) for method filter: (f: ItemDAO.this.Items => T)(implicit wt: slick.lifted.CanBeQueryCondition[T]): slick.lifted.Query[ItemDAO.this.Items,ItemDAO.this.Items#TableElementType,Seq]
+[error]     db.run(items.filter(_.address === address, _.heating === heating, _.square === square, _.price === price).result.headOption)
+[error]                                                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\ItemDAO.scala:43:58: too many arguments (found 4, expected 1) for method filter: (f: ItemDAO.this.Items => T)(implicit wt: slick.lifted.CanBeQueryCondition[T]): slick.lifted.Query[ItemDAO.this.Items,ItemDAO.this.Items#TableElementType,Seq]
+[error]     db.run(items.filter(_.address === address, _.heating === heating, _.square === square, _.price === price).result.headOption)
+[error]                                                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\ItemDAO.scala:43:58: too many arguments (found 4, expected 1) for method filter: (f: ItemDAO.this.Items => T)(implicit wt: slick.lifted.CanBeQueryCondition[T]): slick.lifted.Query[ItemDAO.this.Items,ItemDAO.this.Items#TableElementType,Seq]
+[error]     db.run(items.filter(_.address === address, _.heating === heating, _.square === square, _.price === price).result.headOption)
+[error]                                                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

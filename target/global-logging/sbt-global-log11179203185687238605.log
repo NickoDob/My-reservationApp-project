@@ -1,0 +1,82 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.2 (Oracle Corporation Java 16.0.2)
+[debug]       Load.loadUnit: plugins took 307.6537ms
+[debug]       Load.loadUnit: defsScala took 2.5136ms
+[debug] [Loading] Scanning directory C:\Users\kolya\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kolya\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 38.5045 ms
+[debug]           Load.resolveProject(global-plugins) took 91.6158ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\kolya\.sbt\1.0\plugins, plugins: List(<none>))) took 181.7859ms
+[debug] [Loading] Done in C:\Users\kolya\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 234.4825ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4444ms
+[debug]     Load.loadUnit(file:/C:/Users/kolya/.sbt/1.0/plugins/, ...) took 571.568ms
+[debug]   Load.apply: load took 984.8591ms
+[debug]   Load.apply: resolveProjects took 8.5201ms
+[debug]   Load.apply: finalTransforms took 165.1674ms
+[debug]   Load.apply: config.delegates took 29.5321ms
+[debug]   Load.apply: Def.make(settings)... took 1018.5318ms
+[debug]   Load.apply: structureIndex took 244.4912ms
+[debug]   Load.apply: mkStreams took 2.98ms
+[info] loading global plugins from C:\Users\kolya\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7396.6695ms
+[debug]           Load.loadUnit: plugins took 97.6548ms
+[debug]           Load.loadUnit: defsScala took 0.0153ms
+[debug] [Loading] Scanning directory C:\Users\kolya\Documents\GitHub\reservationApp-FB\project
+[debug]             Load.loadUnit: mkEval took 11.7316ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kolya\Documents\GitHub\reservationApp-FB\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.1088 ms
+[info] loading settings for project reservationapp-fb-build from plugins.sbt ...
+[debug]               Load.resolveProject(reservationapp-fb-build) took 5.9231ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id reservationapp-fb-build, base: C:\Users\kolya\Documents\GitHub\reservationApp-FB\project, plugins: List(<none>))) took 12.0379ms
+[debug] [Loading] Done in C:\Users\kolya\Documents\GitHub\reservationApp-FB\project, returning: (reservationapp-fb-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 335.9269ms
+[debug]           Load.loadUnit: cleanEvalClasses took 28.3797ms
+[debug]         Load.loadUnit(file:/C:/Users/kolya/Documents/GitHub/reservationApp-FB/project/, ...) took 464.3389ms
+[debug]       Load.apply: load took 468.003ms
+[debug]       Load.apply: resolveProjects took 0.2134ms
+[debug]       Load.apply: finalTransforms took 36.0422ms
+[debug]       Load.apply: config.delegates took 1.6919ms
+[debug]       Load.apply: Def.make(settings)... took 272.6752ms
+[debug]       Load.apply: structureIndex took 94.6617ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\Users\kolya\Documents\GitHub\reservationApp-FB\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

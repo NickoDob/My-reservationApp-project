@@ -1,0 +1,530 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:40: value members is not a member of forms.EventForm.EventData
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                        ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:66:61: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]         val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                             ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:42: value members is not a member of forms.EventForm.EventData
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                          ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\controllers\EventController.scala:92:63: missing argument list for method fromString in class UUID
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `fromString _` or `fromString(_)` instead of `fromString`.
+[error]           val members: List[UUID] = data.members.get.map(UUID.fromString)
+[error]                                                               ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 6 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:62:117: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         Event(event.id, event.startDateTime, event.endDateTime, event.orgUserId, event.members, event.itemId, event.description))
+[error]                                                                                                                     ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\EventDAO.scala:75:96: value members is not a member of models.Event
+[error]       .update((event.startDateTime, event.endDateTime, event.orgUserId, Some(Json.toJson(event.members)), event.itemId, event.description)).map(_ => event))
+[error]                                                                                                ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:107: type mismatch;
+[error]  found   : ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])) => models.Event
+[error]  required: ((Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])) => ?
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                           ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\daos\TableDefinitions.scala:96:121: type mismatch;
+[error]  found   : Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Long, Option[String])]
+[error]  required: Option[(Long, java.time.LocalDateTime, java.time.LocalDateTime, java.util.UUID, Option[play.api.libs.json.JsValue], Long, Option[String])]
+[error]     def * = (id, startDateTime, endDateTime, orgUserId, members, itemId, description).<> ((Event.apply _).tupled, Event.unapply)
+[error]                                                                                                                         ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:71:198: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]               eventDAO.add(Event(-1, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                      ^
+[error] C:\Users\kolya\Documents\GitHub\reservationApp-FB\app\models\services\EventService.scala:90:216: too many arguments (found 7, expected 6) for method apply: (id: Long, startDateTime: java.time.LocalDateTime, endDateTime: java.time.LocalDateTime, orgUserId: java.util.UUID, itemId: Long, description: Option[String]): models.Event in object Event
+[error]         updatedEvent <- eventDAO.update(Event(eventID, eventData.startDateTime, newEndDateTime, UUID.fromString(eventData.orgUserID), Some(Json.obj("users" -> Json.toJson(memberUsers))), eventData.itemID, eventData.description))
+[error]                                                                                                                                                                                                                        ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\kolya\Documents\GitHub\reservationApp-FB\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:reservationapp
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
